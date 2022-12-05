@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Touch Nums</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+</head>
+
+<body onload="onInit()">
+    <h1>Touch-nums</h1>
+    <h2 class ="time">0.000</h2>
+    <form>
+          <input onclick ="change(this)" type="radio" id="html" name="name" value="4">
+          <label for="html">Easy(16)</label>
+          <input onclick ="change(this)" type="radio" id="css" name="name" value="5">
+          <label for="css">Hard(25)</label>
+          <input onclick ="change(this)" type="radio" id="javascript" name="name" value="6">
+          <label for="javascript">Extreme(36)</label><br><br>
+   
+        </form>
+        <table border = "1" cellpadding = "20">
+            <tbody class = "board">
+                
+            </tbody>
+            
+        </table>
+        <button onclick="reset()">RESET GAME</button>
+    <script src = "js/main.js"></script>
+</body>
+
+</html>
